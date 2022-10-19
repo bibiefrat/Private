@@ -3,14 +3,14 @@ Read 3 numbers from the user
 and print their total sum
 """
 
-print "Type in 3 numbers:"
-x = raw_input()
-y = raw_input()
-z = raw_input()
+print ("Type in 3 numbers:")
+x = input()
+y = input()
+z = input()
 
 total = float(x) + float(y) + float(z)
 
-print "Sum of the numbers is: ", total
+print (f"Sum of the numbers is:  {total}")
 ######################################################################################################
 
 # you can write to stdout for debugging purposes, e.g.
@@ -25,7 +25,7 @@ def solution(S):
     max=0
     sentences=re.split('\.|\?|\!',S)
     # write your code in Python 3.6
-    print sentences
+    print (f"sentences")
     for i in sentences:
         words =re.split(' ',i)
         num_of_words=0
@@ -36,9 +36,9 @@ def solution(S):
                 num_of_words +=1
         if num_of_words > max:
             max = num_of_words
-        print words
-        print num_of_words
-    print "max is: " + str(max)
+        print (f"{words}")
+        print (f"{num_of_words}")
+    print (f"max is:  {str(max)}")
         
     pass
 
