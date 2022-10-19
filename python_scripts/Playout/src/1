@@ -1,0 +1,244 @@
+#  Configuration file
+[Configuration]
+number_of_sending_threads = 10
+# --------------------------------------------------------------
+#       User configuration parameters
+# --------------------------------------------------------------
+
+# --------------------------------------------------------------
+#       Manager parameters
+# --------------------------------------------------------------
+
+# The Manager IP and Port
+manager = 10.65.179.188:5929
+
+
+# Is SSL enabled (1-True, 0-False)
+enable_ssl = 0
+
+#  The Asset list relative path include the file name.
+asset_list_path = conf/asset.list
+#asset_list_path = conf/AbrList.txt
+
+# The Log file relative path include the file name to be created
+log_file = log/log.txt
+
+# --------------------------------------------------------------
+#       Sessions parameters
+# --------------------------------------------------------------
+
+# Total script playout time (sec)
+run_duration = 300000
+
+#sessions open rate
+sessions_per_second = 100
+
+# The total number of sessions to create in the script
+total_sessions = 1
+
+# Number of sessions to run between delays
+no_delay_sessions = 200
+
+
+# if using delay --> How many seconds of delay to use
+delay_between_sessions = 0.01
+
+# Which session number should transfer to real STB
+#real_session = 1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20
+#real_session = 1;2;3;4;5;6;7;8;9;10;11;12
+real_session = 0
+
+# The ip and port of real STB to transfer to
+#real_stb = 236.1.1.31:1234
+#192.168.7.230:1234;192.168.7.230:1235;192.168.7.230:1236;192.168.7.230:1237;192.168.7.230:1238;192.168.7.230:1239;192.168.7.230:1240;192.168.7.230:1241;192.168.7.230:1242;192.168.7.230:1243;192.168.7.230:1244;192.168.7.230:1245;192.168.7.230:1246;192.168.7.230:1247;192.168.7.230:1248;192.168.7.230:1249;192.168.7.230:1250;192.168.7.230:1251;192.168.7.230:1252;
+#real_stb = 225.20.20.20:2222;225.21.21.21:2121;225.22.22.22:2122;225.23.23.23:2123;231.1.1.1:1234;231.2.2.2:1234;231.3.3.3:1234;231.4.4.4:1234;225.5.5.5:1234;225.6.6.6:1234;225.7.7.7:1234;225.8.8.8:1234
+#real_stb = 20.0.0.203:1234;20.0.0.203:1235;20.0.0.203:1235;20.0.0.203:1235
+#real_stb = 10.70.70.225:1234
+real_stb = 239.100.100.111
+
+# Streamer ID (0 = Manager will select the streamer for allocation, other wise give streamers id's. teardown is from all streamers) 48573161443;39983226851
+#streamer_id = 14275292335;18570259631,27162981249,22868013953
+streamer_id = 0
+
+
+# Play in loop mode (1 - loop mode enabled)
+loop_mode = 1
+
+# The fake STB address to start transfer with
+#fake_STB = 192.168.7.45
+#fake_STB = 127.0.0.1
+#fake_STB = 20.0.0.101;20.0.0.106
+#fake_STB = 20.0.0.21;20.33.0.21
+fake_STB = 239.100.100.111
+#fake_STB = 20.0.0.90
+
+# Using 1 machine & port to receive all openRTSP sessions (1-True, 0-False)
+one_fake_machine = 1
+
+# Initial port to use when sending to 1 fake machine with different ports
+init_port = 11111
+
+# The service group number
+service_group = 000000000013
+
+# the Geo ID  - relevant only for nGod sessions
+geo_id = 1
+
+# PlayOut - via Play (P) or via Resume (R) - Default is via Resume
+lsc_tool_play_resume = R
+
+# Starts sessions immediately after allocation
+start_sessions_after_allocation = 1
+
+#timeout for lscp commands
+lscp_command_timeout = 3
+
+# --------------------------------------------------------------
+#       ABR section
+# --------------------------------------------------------------
+
+#creates asset list and exits
+create_asset_list = 0
+
+#only request manifests
+manifest_only = 0
+
+#HLS device profile
+hls_device_profile=HLS
+
+#SMOOTH device profile
+smooth_device_profile=SMOOTH
+
+#session type (hls:1/smooth:2)
+abr_session_type = 2
+
+#static url: streamers to use video interface
+streamer_ip = 192.168.7.214:5555
+
+#session start level (0 for random)
+start_at_random_level = 0
+
+#sessions change level percent
+sessions_change_level_percent = 0
+
+#slice buffer for static url performance (ignores asset list)
+slice_buffer =1
+
+#splice duration
+slice_duration = 00:05:00
+
+#in minutes
+buffer_sampling_interval=1
+
+#fragment length
+fragment_length=5
+
+#allow inner assets with warnings
+warning_inner_assets = 0
+# --------------------------------------------------------------
+#       TrickPlay parameters
+# --------------------------------------------------------------
+
+# the trick plays file and relative path
+trickplay_list_path = conf/trickplay.lscp
+
+
+# Script running LSC in UDP or TCP version (1=UDP, 0=TCP)
+lsc_protocol = 0
+
+#Enable slow_motion trick play (1=enable,0=disable)
+slow_motion=0
+
+# trick play duration of each command - in seconds
+command_duration = 120
+
+# percentage of total trick play sessions out of the total sessions
+trick_play_percent = 99
+
+# sleep_after_play - how much time to sleep after the PLAY in the scenario-  Trick Play -> PLAY -> Trick Play
+# this is mostly for 100 percent Trick Play cases since there is a great chance to go immediately to Trick Play after the PLAY.
+sleep_after_play = 0.01
+
+# sum of the following percentage should be 100
+# percent of FF trick play commands in the LSCP file
+ff_percent = 100
+
+# percent of REW1 trick play commands in the LSCP file
+rew_percent = 0
+
+# percent of PAUSE trick play commands in the LSCP file
+pause_percent = 0
+
+# Start Recording from NPT = 0 (if start_npt = 0 start from zero NPT else start from NOW NPT) - for live recording usage
+# live recordings start from tail play if their start NPT is NOW
+start_npt = 0
+
+
+# --------------------------------------------------------------
+#       TearDown parameters
+# --------------------------------------------------------------
+# throttled teardown via manger - this feature overwite all other teardown options
+# please set TROUBLESHOOTING_SERVICE_ALLOW_CONTROLLED_TEARDOWN_OF_DYNAMIC_SESSIONS = true in Manager ini
+thrld_teardown = 0
+
+
+#num of tear downs per sec per streamer
+#if = 0 than running fast mode -> multithreaded teardown with pre defined(=5) teardown frequency
+#else running in serialyzed mode - and the below parameter defines the teardown frequency
+tear_down_per_sec = 100
+
+# are assetd IDs configured as numeric in manager ini - if so we teardown by fx_id (parameter = 1) otherwise by string (parameter = 0)
+# this parameter is relevant only for RTSP (for lscp we teardown all types)
+is_numeic_session_id = 1
+
+#the port of streamers to be torn down
+streamer_port=5555
+
+rtsp_managers=
+
+#do we use DB (if we use DB - chunk size is)
+use_db=1
+
+#DB address if above parameter is true. - this is the pgpool address in case of postgres
+db_addr=10.65.179.188
+
+# DB type - solid or postgres
+db_type=solid
+
+# database machine password
+db_machine_password=F@brix
+
+# session mode to teardown (currently via DB only)
+#teardown_session_mode=0;1;2;3;4;5;6;7;38;41
+teardown_session_mode=0;1;2;3;4;5;6;7;38;41;34
+
+# tcp timeout for teardown via DB
+teardown_timeout =0.001
+
+# --------------------------------------------------------------
+#       User configuration parameters
+# --------------------------------------------------------------
+
+# Use the script in http/lscp/rtsp mode (lscp use: 1, http use: 0, rtsp use: 2 , ABR_DYNAMIC : 3, ABR_STATIC : 4, HLS: 5 , NGOD use: 6 , Rtps Rolling Buffer use:7)
+# rtsp - meaning via RTSP plugin in manager - also the TEARDOWN will be via the Plugin
+playout_mode = 1
+
+# should we close rtsp socket only once (1) - at the end of session or after each operation (0)
+rtsp_close_socket_once = 1
+
+
+# activate lscp status requests
+lscp_status = 1
+
+# delay between lscp status requests
+stat_delay = 1
+
+# Level of requested log : Devel (include everything) Debug/ info / warning / error / critical
+#desired_log_level = Debug
+desired_log_level = Devel
+
+#exit on critical error
+sys_exit_on_critical = 0
+
+#print Allocation time
+print_alloc_time = 0

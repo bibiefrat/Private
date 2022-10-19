@@ -1,0 +1,43 @@
+asdasdasd[26-11-2017 15:57:38.038] [LscpSession 1 ] [ERROR]  Allocation Failed Due to: "<?xml version="1.0" encoding="UTF-8"?>
+<X>
+ <url></url>
+ <id>
+  <type>-1</type>
+ </id>
+ <info>
+  <streamer_addr>0.0.0.0:0</streamer_addr>
+  <stream_handle>0</stream_handle>
+  <transport_id>0</transport_id>
+  <out_transport_id>0</out_transport_id>
+  <program_num>0</program_num>
+  <downstream_bw>0</downstream_bw>
+ </info>
+ <http_port>0</http_port>
+ <error>Failed resolving playlist assets (Missing assets (1): ice6_sdntsc_h264_scte35_test_stream1)</error>
+ <error_id>4294950290</error_id>
+</X>"
+[26-11-2017 15:58:18.044] [LscpSession 1 ] [ERROR]  Allocation Failed Due to: "<?xml version="1.0" encoding="UTF-8"?>
+<X>
+ <url></url>
+ <id>
+  <type>-1</type>
+ </id>
+ <info>
+  <streamer_addr>0.0.0.0:0</streamer_addr>
+  <stream_handle>0</stream_handle>
+  <transport_id>0</transport_id>
+  <out_transport_id>0</out_transport_id>
+  <program_num>0</program_num>
+  <downstream_bw>0</downstream_bw>
+ </info>
+ <http_port>0</http_port>
+ <error>Failed resolving playlist assets (Missing assets (1): 362052)</error>
+ <error_id>4294950290</error_id>
+</X>"
+[26-11-2017 15:58:54.207] [LscpSession 1 ] [ERROR]  Allocation Failed Due to: "No VOD Server contains service group 000000000013"
+[26-11-2017 15:59:38.192] [LscpSession 1 ] [ERROR]  Allocation Failed Due to: "No VOD Server contains service group 000000000013"
+[26-11-2017 16:00:05.272] [LscpSession 1 ] [ERROR]  Allocation Failed Due to: "No VOD Server contains service group 000000000013"
+[12-02-2019 16:39:14.834] [LscpSession 1 ] [ERROR]  Allocation Failed Due to: "RSDVR assets can only be played at once concurrently (asset=CBR_1549980944933$1001 session playing=OJBBFNLNIHFKGHGA)"
+[12-02-2019 16:39:33.261] [LscpSessionManager] [ERROR]  { scale: 1 status_code_str: LSCP_MPEG_DELIVERY current_NPT: 0 op_code: 134 status_code: 64 op_code_str: LSCP_PLAY_REPLY}
+[12-02-2019 16:46:11.377] [LscpSessionManager] [ERROR]  { scale: 1 status_code_str: LSCP_MPEG_DELIVERY current_NPT: 0 op_code: 134 status_code: 64 op_code_str: LSCP_PLAY_REPLY}
+[12-02-2019 16:48:26.298] [LscpSessionManager] [ERROR]  { scale: 1 status_code_str: LSCP_MPEG_DELIVERY current_NPT: 0 op_code: 134 status_code: 64 op_code_str: LSCP_PLAY_REPLY}

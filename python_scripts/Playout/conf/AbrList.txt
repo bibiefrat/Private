@@ -1,0 +1,15 @@
+
+#for live use:
+#channel_name   LIVE    END
+
+#for buffer use:
+#channel_name   start_time  end_time
+
+#for vod asset use:
+#/internal_id   0   -1
+
+##################################################################################
+#channel_1		LIVE			END
+#channel_1		2013-02-04T14:09:50			2013-02-04T14:37:37
+#/1346318334752  0   -1
+Channel2    2013-02-05T08:09:50     2013-02-05T08:12:50

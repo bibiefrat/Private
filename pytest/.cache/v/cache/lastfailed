@@ -1,0 +1,4 @@
+{
+  "fixture2.py::TestClass::()": true, 
+  "fixture2.py::test_not_2[2]": true
+}

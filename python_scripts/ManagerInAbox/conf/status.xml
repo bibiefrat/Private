@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X>
+ <region_id>1133333553</region_id>
+ <address>192.168.100.28:5929</address>
+ <region_name>shay1</region_name>
+ <warning>
+  <size>3</size>
+  <elem id="0">
+   <sev>3</sev>
+   <description>All Disks in Video Server Rack-100-VS1  can not update fault led</description>
+   <category>2</category>
+  </elem>
+  <elem id="1">
+   <sev>3</sev>
+   <description>All Disks in Video Server Rack-100-VS1  can not update locate led</description>
+   <category>2</category>
+  </elem>
+  <elem id="2">
+   <sev>3</sev>
+   <description>Warnings from source at 227.100.100.4:1234 100.4 ad zone ad-zone14 reported by R-100B001</description>
+   <category>8</category>
+   <context>17</context>
+  </elem>
+ </warning>
+ <warning_summary>
+  <size>15</size>
+  <elem id="0">
+   <id>1342073867</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>0</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="1">
+   <id>1342073867</id>
+   <max_sev>3</max_sev>
+   <category>8</category>
+   <type>0</type>
+   <num_warnings>1</num_warnings>
+  </elem>
+  <elem id="2">
+   <id>18521943307</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>1</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="3">
+   <id>18521943307</id>
+   <max_sev>3</max_sev>
+   <category>8</category>
+   <type>1</type>
+   <num_warnings>1</num_warnings>
+  </elem>
+  <elem id="4">
+   <id>22816910603</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>2</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="5">
+   <id>22816910603</id>
+   <max_sev>3</max_sev>
+   <category>8</category>
+   <type>2</type>
+   <num_warnings>1</num_warnings>
+  </elem>
+  <elem id="6">
+   <id>22816910604</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>4</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="7">
+   <id>22816910605</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>4</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="8">
+   <id>22816910606</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>4</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="9">
+   <id>22816910607</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>4</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="10">
+   <id>27111877899</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>2</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="11">
+   <id>27111877900</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>4</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="12">
+   <id>27111877901</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>4</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="13">
+   <id>27111877902</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>4</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+  <elem id="14">
+   <id>27111877903</id>
+   <max_sev>3</max_sev>
+   <category>2</category>
+   <type>4</type>
+   <num_warnings>2</num_warnings>
+  </elem>
+ </warning_summary>
+ <start_time>1343914650.816967</start_time>
+ <service_group_datas>
+  <size>1</size>
+  <elem id="0">
+   <first>00000000000d</first>
+   <second>
+    <capacity>871065129379</capacity>
+    <ad_zone>ad-zone13</ad_zone>
+   </second>
+  </elem>
+ </service_group_datas>
+ <ad_zones_capacity>
+  <size>3</size>
+  <elem id="0">
+   <first>ad-zone13</first>
+   <second>871065129379</second>
+  </elem>
+  <elem id="1">
+   <first>ad-zone14</first>
+   <second>871065129379</second>
+  </elem>
+  <elem id="2">
+   <first>ad-zone15</first>
+   <second>871065129379</second>
+  </elem>
+ </ad_zones_capacity>
+ <last_event_update_time>0</last_event_update_time>
+</X>

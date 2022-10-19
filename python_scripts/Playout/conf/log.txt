@@ -1,0 +1,10 @@
+[16-12-2012 15:55:14.663] Manager 192.168.6.85: [DEBUG] Manager version: 3.0.1.0 cm version: 3.0.1.0
+[16-12-2012 15:55:37.776] Main    : [ERROR]    EOF when reading a line
+[16-12-2012 15:55:37.789] REPORT  : [CRITICAL]    
+
+
+********************
+[16-12-2012 15:55:37.789] REPORT  : [CRITICAL] 		$$$$$$$$$$$ Test report: $$$$$$$$$$$
+[16-12-2012 15:55:37.789] REPORT  : [CRITICAL] 		   Total of Successful sessions = 0
+[16-12-2012 15:55:37.789] REPORT  : [CRITICAL] 		   Total of Failed sessions = 2
+[16-12-2012 15:55:37.789] REPORT  : [CRITICAL] 		$$$$$$$$$$$ End of report $$$$$$$$$$$

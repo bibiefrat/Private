@@ -1,0 +1,5 @@
+<ScheduleRecording AssetID = "asset_name" CallSign = "channel_name" StartTime = "2015-03-15T13:54:00Z" EndTime = "2015-03-15T13:55:00Z" > 
+  <PVRList>
+    <PVRListItem  HomeID="home_id" MACAddress="102030405060" />
+  </PVRList>
+</ScheduleRecording>

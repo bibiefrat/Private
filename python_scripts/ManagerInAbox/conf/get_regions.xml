@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X>
+ <regs>
+  <size>1</size>
+  <elem id="0">
+   <id>1338899354</id>
+   <name>Region</name>
+   <warn>1</warn>
+   <manager_addr>192.168.6.120:5929</manager_addr>
+   <warn_desc>
+    <size>5</size>
+    <elem id="0">
+     <sev>2</sev>
+     <description>SRM 192.168.6.120:13819 disconnected</description>
+    </elem>
+    <elem id="1">
+     <sev>3</sev>
+     <description>All Disks in Blade r01B001  can not update fault led</description>
+     <category>2</category>
+    </elem>
+    <elem id="2">
+     <sev>3</sev>
+     <description>All Disks in Blade r01B001  can not update locate led</description>
+     <category>2</category>
+    </elem>
+    <elem id="3">
+     <sev>3</sev>
+     <description>Blade r01B001 has unapplied configuration updates</description>
+    </elem>
+    <elem id="4">
+     <sev>2</sev>
+     <description>No data from source at 234.1.1.8:1236 abc ad zone ad-zone1 reported by r01B001</description>
+     <category>8</category>
+     <context>1</context>
+    </elem>
+   </warn_desc>
+   <description>Default region. Automatically generated</description>
+   <upgrading>0</upgrading>
+   <file_per_disk>1</file_per_disk>
+   <type>0</type>
+  </elem>
+ </regs>
+</X>

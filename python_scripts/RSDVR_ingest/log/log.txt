@@ -1,0 +1,23 @@
+[16-04-2019 10:31:21] Ingest  : [INFO    ] ============================================================
+                                              Configuration details :
+                                              Manager is  : 10.10.61.6:5929 .
+                                              Total Number of ingests to reach : 2 .
+                                              Recordings per bulk : 200 .
+                                              Number of concurrent ingests : 1000 .
+                                           ============================================================
+[16-04-2019 10:31:21] Ingest  : [INFO    ] ============================================================
+                                           Existing Concurrent ingests = 5
+                                           ============================================================
+[16-04-2019 10:31:21] urllib3.connectionpool: [DEBUG   ] Starting new HTTP connection (1): 10.10.61.6
+[16-04-2019 10:31:21] urllib3.connectionpool: [DEBUG   ] http://10.10.61.6:5929 "POST /v2/recordings/ HTTP/1.1" 200 153
+[16-04-2019 10:31:21] Ingest  : [INFO    ] ============================================================
+                                           Existing Concurrent ingests = 7
+                                           ============================================================
+[16-04-2019 10:31:21] urllib3.connectionpool: [DEBUG   ] Starting new HTTP connection (1): 10.10.61.6
+[16-04-2019 10:31:21] urllib3.connectionpool: [DEBUG   ] http://10.10.61.6:5929 "POST /v2/recordings/ HTTP/1.1" 200 153
+[16-04-2019 10:31:21] Ingest  : [INFO    ] ============================================================
+                                           Existing Concurrent ingests = 9
+                                           ============================================================
+[16-04-2019 10:31:21] Ingest  : [INFO    ] ============================================================
+                                           Existing Concurrent ingests = 9
+                                           ============================================================

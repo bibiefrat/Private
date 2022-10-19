@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<X>
+ <warnings>
+  <size>1</size>
+  <elem id="0">
+   <warnings>
+    <size>13</size>
+    <elem id="0">
+     <id>1338899354</id>
+     <num_errors>1</num_errors>
+     <max_sev>2</max_sev>
+     <type>0</type>
+     <num_warnings>1</num_warnings>
+    </elem>
+    <elem id="1">
+     <id>1338899354</id>
+     <max_sev>3</max_sev>
+     <category>2</category>
+     <type>0</type>
+     <num_warnings>2</num_warnings>
+    </elem>
+    <elem id="2">
+     <id>1338899354</id>
+     <num_errors>1</num_errors>
+     <max_sev>2</max_sev>
+     <category>8</category>
+     <type>0</type>
+    </elem>
+    <elem id="3">
+     <id>31403670607</id>
+     <max_sev>3</max_sev>
+     <type>1</type>
+     <num_warnings>1</num_warnings>
+    </elem>
+    <elem id="4">
+     <id>31403670607</id>
+     <max_sev>3</max_sev>
+     <category>2</category>
+     <type>1</type>
+     <num_warnings>2</num_warnings>
+    </elem>
+    <elem id="5">
+     <id>31403670607</id>
+     <num_errors>1</num_errors>
+     <max_sev>2</max_sev>
+     <category>8</category>
+     <type>1</type>
+    </elem>
+    <elem id="6">
+     <id>35698637903</id>
+     <max_sev>3</max_sev>
+     <type>2</type>
+     <num_warnings>1</num_warnings>
+    </elem>
+    <elem id="7">
+     <id>35698637903</id>
+     <max_sev>3</max_sev>
+     <category>2</category>
+     <type>2</type>
+     <num_warnings>2</num_warnings>
+    </elem>
+    <elem id="8">
+     <id>35698637903</id>
+     <num_errors>1</num_errors>
+     <max_sev>2</max_sev>
+     <category>8</category>
+     <type>2</type>
+    </elem>
+    <elem id="9">
+     <id>35698637904</id>
+     <max_sev>3</max_sev>
+     <category>2</category>
+     <type>4</type>
+     <num_warnings>2</num_warnings>
+    </elem>
+    <elem id="10">
+     <id>35698637905</id>
+     <max_sev>3</max_sev>
+     <category>2</category>
+     <type>4</type>
+     <num_warnings>2</num_warnings>
+    </elem>
+    <elem id="11">
+     <id>35698637906</id>
+     <max_sev>3</max_sev>
+     <category>2</category>
+     <type>4</type>
+     <num_warnings>2</num_warnings>
+    </elem>
+    <elem id="12">
+     <id>35698637907</id>
+     <max_sev>3</max_sev>
+     <category>2</category>
+     <type>4</type>
+     <num_warnings>2</num_warnings>
+    </elem>
+   </warnings>
+   <file_per_disk>1</file_per_disk>
+   <upgrading>0</upgrading>
+   <region_name>Region</region_name>
+   <region_id>1338899354</region_id>
+   <region_addr>192.168.6.120:5929</region_addr>
+  </elem>
+ </warnings>
+</X>
