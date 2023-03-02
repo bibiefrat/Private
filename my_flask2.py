@@ -26,6 +26,7 @@ def download_file(name):
 def upload_file():
     if request.method == 'POST':
         # check if the post request has the file part
+        print(request.headers)
         if 'file' not in request.files:
             flash('No file part')
             return redirect(request.url)
